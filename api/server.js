@@ -6,7 +6,7 @@ const server = express()
 
 
 //Add routes
-server.use(projectsRouter)
+server.use('/api', projectsRouter)
 
 //Start server
 const port = 7000
